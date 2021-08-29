@@ -67,6 +67,10 @@ class SchemaTypeResolver
             case 'boolean':
                 return $property->type;
             case 'number': // can be double and float
+                if($format === 'currency')
+                {
+                    return 'decimal(19,2)';
+                }
                 return $format ?? 'float';
             case 'integer':
                 if ($format === 'int64') {
