@@ -22,7 +22,7 @@
 		"cebe/php-openapi": "^1.5.0",
 		"yiisoft/yii2": "~2.0.15",
 		"yiisoft/yii2-gii": "~2.0.0 | ~2.1.0 | ~2.2.0",
-		"fzaninotto/faker": "^1.8",
+		"fakerphp/faker": "^1.15",
 		"laminas/laminas-code": "^3.4",
 		"insolita/yii2-fractal": "^1.0.0"
 	},
